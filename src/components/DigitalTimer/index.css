@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.hov {
+  cursor: default;
+}
+.main {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+.Divi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.back {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dispcon {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 80px;
+}
+.secondside1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.secondside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+button {
+  height: fit-content;
+  border-style: none;
+  background-color: none;
+}
+.dispy {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 170px;
+  flex-direction: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.button_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
